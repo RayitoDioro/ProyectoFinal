@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header  {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  section  {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  a {
+    color:aquamarine; /* Establece el color del enlace a azul por defecto */
+    text-decoration: none; /* Elimina la subrayado predeterminado del enlace */
+  }
+  
+  a:hover {
+    color: red; /* Cambia el color del enlace a rojo cuando el cursor está encima */
+  }
+  
